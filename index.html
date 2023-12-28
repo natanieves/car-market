@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h2>Cotiza tu seguro de auto</h2>
+      </header>
+      <form action="">
+        <section class="first-section">
+          <section class="section-labels">
+            <label for="brand">Marca:</label>
+            <select type="select" id="brand">
+              <option>- Seleccionar -</option>
+              <option>Americano</option>
+              <option>Asiatico</option>
+              <option>Europeo</option>
+            </select>
+          </section>
+          <section class="section-labels">
+            <label for="year">Año:</label>
+            <select type="select" id="year"></select>
+          </section>
+        </section>
+        <section id="second-section">
+          <h1>Tipo Seguro</h1>
+          <section class="section-inputs-radio">
+            <section>
+              <label for="radio-basic">Básico</label>
+              <input name="radio" type="radio" id="radio-basic"/>
+            </section>
+            <section>
+              <label for="radio-complete">Completo</label>
+              <input name="radio" type="radio" id="radio-complete" />
+            </section>
+          </section>
+        </section>
+        <button type="submit">Cotizar Seguro</button>
+      </form>
+    </main>
+  </body>
+</html>
