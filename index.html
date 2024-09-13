@@ -11,7 +11,7 @@
       <header>
         <h2>Cotiza tu seguro de auto</h2>
       </header>
-      <form action="">
+      <form action="" id="quote-insurance"> 
         <section class="first-section">
           <section class="section-labels">
             <label for="brand">Marca:</label>
@@ -32,16 +32,18 @@
           <section class="section-inputs-radio">
             <section>
               <label for="radio-basic">Básico</label>
-              <input name="radio" type="radio" id="radio-basic"/>
+              <input name="type" type="radio" id="radio-basic" value="Básico"/>
             </section>
             <section>
               <label for="radio-complete">Completo</label>
-              <input name="radio" type="radio" id="radio-complete" />
+              <input name="type" type="radio" id="radio-complete" value="Completo" />
             </section>
           </section>
         </section>
         <button type="submit">Cotizar Seguro</button>
       </form>
     </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
